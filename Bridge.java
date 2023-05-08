@@ -1,5 +1,5 @@
 class Bridge {
-    static interface Renderer {
+    interface Renderer {
         void renderShape(String shape);
     }
 

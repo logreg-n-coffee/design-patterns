@@ -1,5 +1,5 @@
 class AbstractFactory {
-    static interface Button {
+    interface Button {
         void render();
     }
 
@@ -15,7 +15,7 @@ class AbstractFactory {
         }
     }
 
-    static interface ButtonFactory {
+    interface ButtonFactory {
         Button createButton();
     }
 

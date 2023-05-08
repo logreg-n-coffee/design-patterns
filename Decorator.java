@@ -1,5 +1,5 @@
 class Decorator {
-    static interface Coffee {
+    interface Coffee {
         double cost();
     }
 
